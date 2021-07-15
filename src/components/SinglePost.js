@@ -31,7 +31,7 @@ export default function SinglePost() {
     }, [slug]);
 
     if (!singlePost) {
-        return <div>Error 404, Post Not Found :(</div>
+        return <div />  
     }
 
     return (
