@@ -20,12 +20,12 @@ export default function NavBar() {
                     >
                         Blog Posts
                     </NavLink>
-                    <NavLink to='/project'
+                    {/* <NavLink to='/project'
                     activeClassName='text-white bg-blue-700'
                     className='inline-flex items-center py-3 px-3 my-6 rounded text-black hover:text-blue-400 text-lg font-bold cursive'
                     >
                         Projects
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink to='/about'
                     activeClassName='text-white bg-blue-700'
                     className='inline-flex items-center py-3 px-3 my-6 rounded text-black hover:text-blue-400 text-lg font-bold cursive'
